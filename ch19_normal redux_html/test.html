@@ -13,10 +13,12 @@
             return {
                 type: "ADD",
                 color: value
+
             };
         }
 
         function removeColor(value) {
+
             return {
                 type: "REMOVE",
                 color: value
@@ -35,7 +37,9 @@
                 });
             } else {
                 return state;
+
             }
+
         }
         var store = Redux.createStore(favoriteColors)
 
